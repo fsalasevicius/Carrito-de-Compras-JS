@@ -1,0 +1,464 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  color: #777;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  line-height: 1.3;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.titulo {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.parrafo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+.btn {
+  color: #000000;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid rgba(24, 26, 139, 0.2);
+  background: transparent;
+}
+.btn:hover {
+  background-color: #004794;
+  border-color: #3b5998;
+}
+
+.form-control {
+  background-color: #FFFFFF;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  cursor: pointer;
+  border: 2px solid rgba(24, 26, 139, 0.2);
+  background: transparent;
+}
+.form-control:hover {
+  color: #000000;
+  cursor: pointer;
+  border: 2px solid #3b5998;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* -- Top Barra -- */
+.bg-light {
+  background-color: #FFFFFF !important;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+  z-index: 150;
+}
+.navbar-nav a {
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #FFFFFF !important;
+  color: #000000 !important;
+}
+.navbar-nav a:hover {
+  color: #E84C3D !important;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* -- Modal Registro - Login -- */
+.modal-icono i {
+  color: #000000;
+  padding-right: 5px;
+}
+
+/* -- Modal Productos destacados -- */
+svg {
+  width: 1.875em;
+  height: 1.875em;
+  margin-top: 0.25em;
+}
+
+.modal-body {
+  color: #000000;
+}
+.modal-body i {
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+/* -- Carousel -- */
+.btn-right {
+  width: 5%;
+}
+
+.btn-left {
+  width: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-item {
+    height: 40vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .carousel-item {
+    height: 0vh;
+  }
+}
+.marca .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.marca .owl-item img {
+  width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+.marca .owl-item img:hover {
+  opacity: 1;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.marca .owl-nav, .marca .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.marca .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #CDCFD2 !important;
+}
+.marca .owl-dot.active {
+  background-color: #3b5998 !important;
+}
+
+/* -- Footer -- */
+.footer {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  background-color: #CDCFD2;
+  color: #000000;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  width: 100%;
+}
+.footer a {
+  color: #000000;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #E84C3D;
+}
+.footer-titulo {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  background-color: #CDCFD2;
+  color: #000000;
+  font-weight: bold;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+.footer-texto {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  background-color: #CDCFD2;
+  color: #000000;
+  font-weight: bold;
+}
+
+.desarrollado {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.enlace-top {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
+  z-index: 1;
+  transition: all 0.4s;
+  scroll-behavior: smooth;
+}
+
+/* -- Logo -- */
+.logo {
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 1920px) {
+  .logo {
+    background-image: url("../img/logo.webp");
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 720px) {
+  .logo {
+    height: 98px;
+    background-image: url("../img/logo3.webp");
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 355px) {
+  .logo {
+    background-image: url("../img/logo2.webp");
+    background-repeat: no-repeat;
+  }
+}
+/* -- Nosotros -- */
+.nosotros-icono i {
+  margin-top: 35px;
+  color: #004794;
+  padding-right: 5px;
+}
+
+/* -- Productos Home -- */
+.cards-destacados {
+  background: #fff;
+  padding: 28px 0 0 0;
+  height: 100%;
+}
+.cards-destacados .w-content {
+  text-align: center;
+  height: 100%;
+  padding: 20px 26px;
+}
+.cards-destacados .w-content div .cards-precio {
+  margin-bottom: 0;
+  font-size: 30px;
+  color: #1b55e2;
+  background: #c2d5ff;
+  font-weight: 600;
+  border-radius: 50%;
+  display: inline-flex;
+  height: 76px;
+  width: 58%;
+  justify-content: center;
+  padding: 9px 0px;
+  border: 5px solid #fff;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 8px 2px #e0e6ed;
+  box-shadow: 0px 0px 8px 2px #e0e6ed;
+}
+.cards-destacados .w-content div .cards-titulo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #009688;
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.tabla-carrito {
+  position: relative;
+}
+.tabla-carrito a {
+  color: #040404;
+  font-weight: bold;
+  text-decoration: none;
+}
+.tabla-carrito a:hover {
+  color: #e80e0e;
+}
+.tabla-carrito img {
+  height: auto;
+  max-width: 50%;
+  vertical-align: middle;
+}
+
+.card-producto {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  background-color: white;
+}
+.card-producto img {
+  height: auto;
+  max-width: 50%;
+  vertical-align: middle;
+}
+
+/* -- Suscribite -- */
+.suscribite-area {
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+  padding: 40px 0;
+  background-color: #000000;
+  width: 100%;
+}
+.suscribite-texto {
+  position: relative;
+  z-index: 1;
+  padding: 40px 0;
+  color: #FFFFFF;
+}
+.suscribite-form input {
+  width: 50%;
+  height: 55px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  padding: 0 30px;
+  color: #000000;
+  font-size: 16px;
+}
+.suscribite-btn {
+  position: relative;
+  display: inline-block;
+  min-width: 100px;
+  height: 60px;
+  color: #FFFFFF;
+  background-color: #E84C3D;
+  border-radius: 3px;
+  padding: 0 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* -- Promociones -- */
+.promociones {
+  width: 100%;
+  color: #000000;
+}
+
+.promo-descripcion {
+  padding-left: 5%;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.ul-descripcion {
+  display: inline-block;
+  padding-right: 2rem;
+}
+.ul-descripcion i {
+  color: #3b5998;
+  font-size: 1.2rem;
+}
+
+.imgPromo {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.titulo-promo {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+/* -- Redes Sociales -- */
+.fb:hover {
+  color: #3b5998;
+  transform: scale(1.3);
+  transition: all 2s;
+}
+
+.instagram:hover {
+  color: #833ab4;
+  transform: scale(1.3);
+  transition: all 2s;
+}
+
+.twitter:hover {
+  color: #00acee;
+  transform: scale(1.3);
+  transition: all 2s;
+}
+
+/* -- Comercial -- */
+.comercial {
+  margin-top: 4rem;
+  padding-left: 2rem;
+  width: 100%;
+  font-size: 26px;
+}
+
+/* -- Contacto -- */
+.contacto {
+  color: #777;
+  padding: 25px;
+}
+
+.carro {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 60%;
+  right: 0px;
+  z-index: 1;
+  transition: all 0.4s;
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=style.css.map */

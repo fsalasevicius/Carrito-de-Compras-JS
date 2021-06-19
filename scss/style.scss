@@ -1,0 +1,224 @@
+@import 'base/import';
+
+/* -- Logo -- */
+.logo{
+  
+  display: flex;
+  position: relative;
+}
+@media screen and (max-width: 1920px){
+    .logo {
+        background-image: url("../img/logo.webp");
+        background-repeat: no-repeat;
+    }
+}
+
+ @media screen and (max-width: 720px){
+     .logo{
+         height: 98px;
+         background-image: url("../img/logo3.webp");
+         background-repeat: no-repeat;
+     }
+ }
+
+
+ @media screen and (max-width: 355px) {
+  .logo {    
+    background-image: url("../img/logo2.webp");
+    background-repeat: no-repeat;
+  }
+}
+
+/* -- Nosotros -- */
+
+.nosotros-icono i {  
+    margin-top: 35px;
+    color: nth($colores, 10);
+    padding-right: 5px;
+}
+
+/* -- Productos Home -- */
+
+.cards-destacados {
+  background: #fff;
+  padding: 28px 0 0 0;
+  height: 100%; 
+  & .w-content {
+    text-align: center;
+    height: 100%;
+    padding: 20px 26px;
+
+  }
+}
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tabla-carrito {
+  position: relative;
+  a{
+    color: rgb(4, 4, 4);
+    font-weight: bold;
+    text-decoration: none;
+    &:hover{
+      color: rgb(232, 14, 14);
+    }  
+  }  
+  & img{
+    height: auto;
+    max-width: 50%;
+    vertical-align: middle;
+  }
+}
+
+.card-producto {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  background-color: white;
+  & img {
+    height: auto;
+    max-width: 50%;
+    vertical-align: middle;
+  }
+}
+
+/* -- Suscribite -- */
+
+.suscribite
+{
+  &-area {
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+    background-color: nth($colores, 4);
+    width: 100%;
+  }
+
+  &-texto {
+    position: relative;
+    z-index: 1;
+    padding: 40px 0;
+    color: nth($colores, 1);
+  }
+
+  &-form input {
+    width: 50%;
+    height: 55px;
+    background-color: nth($colores, 1);
+    border-radius: 2px;
+    padding: 0 30px;
+    color: nth($colores, 4);
+    font-size: 16px;
+  }
+  &-btn {
+   
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+    height: 60px;
+    color: nth($colores, 1);
+    background-color: nth($colores, 5);
+    border-radius: 3px;
+    padding: 0 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+    
+}
+
+
+
+/* -- Promociones -- */
+
+.promociones {   
+    width: 100%;
+    color: nth($colores, 4);    
+}
+
+.promo-descripcion {   
+  
+    padding-left: 5%;
+    color: nth($colores, 4);
+    font-size: 1.2rem;
+}
+
+.ul-descripcion {
+  display: inline-block;
+  padding-right: 2rem;  
+
+  & i{
+    color:nth($colores, 7);  
+    font-size: 1.2rem;
+  }
+}
+
+
+.imgPromo {      
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: nth($colores, 4);
+}
+
+.titulo-promo {  
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 1.4em;
+    letter-spacing: 1px ;    
+    color: nth($colores, 4);    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* -- Redes Sociales -- */
+
+.fb:hover {
+    color :nth($colores, 7);
+    transform: scale(1.3);
+    transition: all 2s;
+}
+
+.instagram:hover {
+    color:nth($colores, 8);
+    transform: scale(1.3);
+    transition: all 2s;
+}
+
+.twitter:hover {
+    color: nth($colores, 9);
+    transform: scale(1.3);
+    transition: all 2s;     
+}
+
+/* -- Comercial -- */
+
+.comercial {   
+  margin-top: 4rem;
+	padding-left: 2rem;
+	width: 100%;
+  font-size: 26px;
+}
+
+/* -- Contacto -- */
+
+.contacto {   
+    color: nth($colores, 3);
+    padding: 25px;
+}
+
+
+.carro{  
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 60%;
+    right: 0px;
+    z-index: 1;
+    transition: all 0.4s;
+    scroll-behavior: smooth;
+}
+

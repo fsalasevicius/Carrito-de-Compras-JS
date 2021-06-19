@@ -1,0 +1,22 @@
+
+/* -- Carousel -- */
+
+.btn-right
+{
+    width: 5%;
+}
+
+.btn-left
+{
+    width: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-item {
+        height: 40vh;
+    }}
+
+@media screen and (max-width: 500px) {
+    .carousel-item {
+        height: 0vh;
+    }}

@@ -1,0 +1,65 @@
+
+/* -- Footer -- */
+
+.footer {  
+
+    font-weight: lighter;
+    letter-spacing: 1px ;    
+    background-color: nth($colores, 2); 
+    color: nth($colores, 4);   
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-weight: bold; 
+    display: inline-block;
+    width: 100%;
+
+        & a
+        {  
+            color: nth($colores, 4);  
+        }
+
+        a:hover
+        {
+            text-decoration: none;
+            color: nth($colores, 5);  
+        }
+        &-titulo {
+            font-size: 1.3rem;
+            font-weight: lighter;
+            letter-spacing: 1px ;    
+            background-color: nth($colores, 2); 
+            color: nth($colores, 4);  
+            font-weight: bold; 
+            padding-top: 25px;   
+            margin-bottom: 25px; 
+        }
+        &-texto {  
+            font-size: 1.2rem;
+            font-weight: lighter;
+            letter-spacing: 1px ;    
+            background-color: nth($colores, 2); 
+            color: nth($colores, 4);  
+            font-weight: bold;     
+        }    
+}
+
+.desarrollado {  
+    font-size: 1.2em;
+    letter-spacing: 1px ;    
+    color: nth($colores, 4);    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;  
+    font-family: 'Roboto Mono', monospace;
+}
+
+.enlace-top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    z-index: 1;
+    transition: all 0.4s;
+    scroll-behavior: smooth;
+}
+

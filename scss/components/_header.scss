@@ -1,0 +1,28 @@
+/* -- Top Barra -- */
+
+
+.bg-light {
+    background-color: nth($colores, 1)!important; 
+}
+
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    width: 100%;
+    z-index: 150;
+    &-nav a{
+        font-weight: bold; 
+        font-size: 18px;
+        text-decoration: none;
+        background-color: nth($colores, 1)!important; 
+        color: nth($colores, 4) !important; 
+        &:hover {
+            color: nth($colores, 5) !important; 
+            font-weight: bold; 
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+}
+

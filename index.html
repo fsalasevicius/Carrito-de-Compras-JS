@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es-ar">​
+  <head>
+    <!-- Etiquetas Metas --> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="language" content="Spanish">
+    <meta name="author" content="Flavio Salasevicius">
+    <meta name="title" content="Black Sheep - Computacion">   
+    <meta name="description" content="Venta de insumos informaticos, computadoras, celulares. Servicio tecnico de pc y Compra productos de calidad al mejor precio.">
+    <meta name="whatsapp" content="+5493466433400">
+    <meta name="keywords" content="venta de computadoras, venta de insumos informaticos,venta de celulares, placas de video, motherboards, pc, computadoras,Auriculares,Cámaras Deportivas,Cámaras Web - IP - Digitales,Cartuchos - Toners - Tintas,Celulares - Inalámbricos,Combos Actualizacion,Conectividad,Discos Rígidos,Dvd´s - Blu ray´s,E - Books,Escáners,Estabilizadores - Ups,Fuentes de Poder,Gabinetes,Gps y Relojes Garmin,Impresoras - Plotters,Memorias,Microprocesadores,Mini Pc,Mochilas - Maletines - Fundas,Monitores,Motherboards,Notebooks - Ultrabooks,Parlantes - Equipos de Audio,Pc All in One,Pen Drives,Pequeños Electrodomésticos,Placas de Video,Proyectores - Pantallas,Seguridad,Servidores,Software,Soportes Tv,Tabletas Graficas,Tablets - Tablets 2 En 1,Teclados - Mouses,TVs - Smart,Volantes - Game Pads"> 
+
+    <!-- Favicon --> 
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Black Sheep Computacion"> 
+    <meta property="og:description" content="Venta de insumos informaticos, computadoras, celulares y mucho más. Compra productos de calidad al mejor precio.">
+    <meta property="og:image" content="img/logo.webp"> 
+    <meta property="og:site_name" content="BlackSheep"> 
+    <meta property="og:author" content="Flavio Salasevicius"> 
+    <meta property="og:url" content="http://blacksheep.com.ar"> 
+
+    <!-- Estilos -->    
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <!-- Fontawasome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  ​
+    <title>Black Sheep - Computación</title>
+
+  </head>
+  ​
+  <body>
+
+    <!-- Inicio Header -->
+    <header class="container-fluid">   
+
+      <!-- Modal Login -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">Ingreso de Usuarios</h5>
+              <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="#" method="POST">
+                <div class="mb-3 modal-icono">
+                  <i class="fas fa-user"></i><label for="exampleInputEmail1" class="form-label"> Usuario</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su usuario">
+                </div>
+                <div class="mb-3 modal-icono">
+                  <i class="fas fa-key"></i><label for="exampleInputPassword1" class="form-label"> Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Ingrese su contraseña">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                </div>         
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-primary btn-block">Ingresar</button>
+              <button type="button" class="btn btn-secondary"  data-dismiss="modal">Cancelar</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!-- Final Modal Login -->
+
+      <!-- Modal Registro -->
+      <div class="modal fade" id="registroModal" tabindex="-1" aria-labelledby="registroModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="registroModalLabel">Registro de usuarios</h5>
+              <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="#" method="POST">
+                <div class="mb-3 modal-icono">
+                  <i class="fas fa-user"></i><label for="exampleInputEmail1" class="form-label"> Usuario</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su usuario">
+                </div>
+                <div class="mb-3 modal-icono">
+                  <i class="fas fa-envelope"></i><label for="exampleInputPassword1" class="form-label"> Correo Electronico</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Ingrese su contraseña">
+                </div>
+                <div class="mb-3 modal-icono">
+                  <i class="fas fa-key"></i><label for="exampleInputPassword1" class="form-label"> Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Ingrese su contraseña">
+                </div>
+                <div class="mb-3 modal-icono">
+                  <i class="fas fa-key"></i><label for="exampleInputPassword1" class="form-label"> Repita la Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Ingrese su contraseña">
+                </div>                
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-primary btn-block">Registrarse</button>
+              <button type="button" class="btn btn-secondary"  data-dismiss="modal">Cancelar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin Modal Registro -->
+
+      <!-- Navbar -->
+      <div class="row">
+        
+          <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="index.html"><img src="img/logo.webp" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto nav-style">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                  </li>                   
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#lista-productos">Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-user"></i>        
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#loginModal">Login</a>
+                      <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#registroModal">Registro</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"   data-toggle="modal" data-target="#modalCarrito">
+                      <i class="fas fa-shopping-cart"></i>       
+                    </a>
+                  </li>
+                </ul>  
+              </div>
+            </nav>
+          </div>
+      </div>
+      <!-- Fin Navbar -->
+    
+    </header>
+    <!-- Final Header -->
+
+    <!-- Inicio Main -->
+    <main class="container-fluid-carrousel">
+
+      <!-- Carousel de Imagenes -->
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slide-1.webp" class="d-block w-100" alt="Te asistimos para el armado de tu PC">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide-2.webp" class="d-block w-100" alt="Encontra los mejores precios en monitores">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide-3.webp" class="d-block w-100" alt="Placas de Video, Deja que tu PC Brille">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide-4.webp" class="d-block w-100" alt="Proveedor Oficial de Productos Aorus">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide-5.webp" class="d-block w-100  img-fluid" alt="Proveedor Oficial de Productos Logitech">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide-6.webp" class="d-block w-100  img-fluid" alt="Proveedor Oficial de Productos Thermaltake">
+          </div>
+          <div class="carousel-item">
+            <img src="img/slide-7.webp" class="d-block w-100  img-fluid" alt="Proveedor Oficial de Productos Corsair">
+          </div>
+        </div>
+        <a class="carousel-control-prev btn-left" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next btn-right" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Fin Carousel de Imagenes -->
+
+      <!-- Seccion Nosotros -->
+      <section id="nosotros" class="sobre-nosotros">
+        <div class="container-fluid" data-aos="zoom-in">
+          <div id="titulo" class="col-12 titulo"><h1 id="bienvenidos">Bienvenidos</h1></div>
+          <div class="row justify-content-center parrafo">
+              <div class="col-xl-10">
+                <p> Blacksheep computación Nació hace 10 años, con el objetivo de ofrecer a nuestros clientes el mejor servicios en compra y venta de insumos informaticos.</p>
+                <p> Con el correr de los años hemos evolucionado agregando nuevos productos y servicios. En nuestros locales podes encontrar:</p>             
+                <ul class="nosotros-icono">
+                  <li><i class="fas fa-angle-double-right"></i> Insumos Informaticos de primer nivel, ya que somos representantes oficiales de las mejores marcas.</li>
+                  <li><i class="fas fa-angle-double-right"></i> Venta de Notebook, Netbooks y Tablets</li>
+                  <li><i class="fas fa-angle-double-right"></i> Venta de telefonos celulares</li>
+                  <li><i class="fas fa-angle-double-right"></i> Venta de parlantes portatiles</li>
+                  <li><i class="fas fa-angle-double-right"></i> Venta e instalacion de equipos de monitoreo y seguridad para el hogar</li>
+                  <li><i class="fas fa-angle-double-right"></i> Desarollo de Software a medida de su empresa, realizando todas las etapas de desarrollo e implementación</li>
+                  <li><i class="fas fa-angle-double-right"></i> Servicio técnico de Pc y Celulares</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- Fin Seccion Nosotros --> 
+      
+      <!-- Seccion Productos -->    
+      <main class="pt-5" role="main">
+        <div class="album mt-5 py-5 bg-light">
+          <div class="container">
+            <div class="col-12 titulo"><h2>Productos</h2></div>
+            <div class="row" id = "cards"></div>
+            <template id="carrito-footer">
+              <th scope="row" colspan="2">Cantidad productos</th>
+              <td></td>             
+              <td class="font-weight-bold">Total $ <span></span></td>
+            </template>          
+            <template id="carrito-productos">
+              <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td>
+                    <button class="btn btn-success btn-sm">
+                        +
+                    </button>
+                    <button class="btn btn-danger btn-sm">
+                        -
+                    </button>
+                </td>
+                <td>$ <span>500</span></td>
+              </tr>
+            </template>      
+            <template id="card-producto">
+                <div class="col-12 mb-2 col-md-4">
+                  <div class="card">
+                    <div class="card-body">
+                        <img src="" alt="" class = "card-img-top">
+                        <h5>Titulo</h5>
+                        <p>precio</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+            </template>
+          </div>
+        </div>
+      </main>
+      <!-- Fin Seccion Productos -->
+
+      <!-- Modal Carrito -->
+      <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="carrito" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalCarrito">Articulos Seleccionados</h5>
+              <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body tabla-carrito" id="carrito">                
+              <div class="container">
+                <h1>Carrito de compras </h1>
+                <hr>
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Cod</th>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Acción</th>
+                        <th scope="col">SubTotal</th>
+                      </tr>
+                    </thead>
+                    <tbody id="items"></tbody>
+                    <tfoot>
+                      <tr id="footer">
+                        <th scope="row" colspan="5">No hay productos Seleccionados</th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                <div class="row" id = "cards"></div>
+              </div>
+                      <button type="button"  id="checkout-pedido" class="btn btn-outline-primary btn-block">Comprar</button>
+                      <button class="btn btn-danger btn-sm" id="vaciar-carrito">Vaciar Carrito</button>              
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"  data-dismiss="modal"><i class="fas fa-sign-out-alt"></i> Cerrar</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+      <!-- Seccion Marcas -->
+      <section id="marca" class="marca">        
+        <div class="col-12 titulo"><h2>Somos representantes oficiales de:</h2></div>
+        <div class="container-fluid" data-aos="zoom-in">
+          <div class="row justify-content-center">
+            <div class="col-xl-10">
+              <div class="owl-carousel marca-carousel">
+                <a href="https://www.amd.com/es"><img src="img/Marcas/amd.webp" alt="Link AMD"></a>
+                <a href="https://www.asus.com/latin/"><img src="img/Marcas/asus.webp" alt="Link Asus"></a>
+                <a href="https://www.nvidia.com/es-la/geforce/"><img src="img/Marcas/geforce.webp" alt="Link Geforce"></a>
+                <a href="https://www.hyperxgaming.com/es"><img src="img/Marcas/hyperx.webp" alt="Link Hyperx"></a>
+                <a href="https://www.intel.la/content/www/xl/es/homepage.html"><img src="img/Marcas/intel.webp" alt="Link Intel"></a>
+                <a href="https://www.logitech.com/es-ar"><img src="img/Marcas/logitech.webp" alt="Link Logitech"></a>
+                <a href="https://latam.msi.com/"><img src="img/Marcas/msi.webp" alt="Link MSI"></a>
+                <a href="https://www.westerndigital.com/"><img src="img/Marcas/wd.webp" alt="Link Western Digital"></a>
+                <a href="https://redragonla.com/"><img src="img/Marcas/red.webp" alt="Link Red Dragon"></a>
+                <a href="https://es.thermaltake.com/"><img src="img/Marcas/therma.webp" alt="Link Thermaltake"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin Seccion Marcas -->
+
+      <!-- Seccion Promociones -->
+      <section id="promociones" class="promociones">
+        <div class="col-12 titulo"><h2>Ofertas del mes</h2></div>
+          <div class="row">  
+            <div class="col-lg-6 col-xs-12 promo-descripcion">
+              <div class="titulo-promo"><h2>Notebook Asus VivoBook R564JA 15.6"</h2></div>
+              <div class="imgPromo"><img src="img/Productos/pc-1.webp" class="img-fluid" alt="Notebook Asus VivoBook R564JA 15.6"></div>
+              <h4>DESCRIPCIÓN:</h4>
+              <ul class="ul-descripcion">
+                <li><i class="fas fa-angle-double-right"></i> Procesador Intel Core i3.</li>
+                <li><i class="fas fa-angle-double-right"></i> Memoria RAM de 4GB.</li>
+                <li><i class="fas fa-angle-double-right"></i> Pantalla LED de 15.6".</li>
+                <li><i class="fas fa-angle-double-right"></i> Resolución de 1920x1080 px</li>
+              </ul>
+              <ul class="ul-descripcion">                
+                <li><i class="fas fa-angle-double-right"></i> Es antirreflejo.</li>
+                <li><i class="fas fa-angle-double-right"></i> Placa de video Intel UHD Graphics.</li>
+                <li><i class="fas fa-angle-double-right"></i> Conexión wifi y bluetooth.</li>
+                <li><i class="fas fa-angle-double-right"></i> Cuenta con 3 puertos USB y puerto HDMI.</li>
+              </ul>              
+              <h5>Precio: $75.000.-</h5>
+            </div>   
+            <div class="col-lg-6 col-xs-12  promo-descripcion">
+              <div class="titulo-promo"><h2>Notebook Lenovo IdeaPad 14IGL05 14"</h2></div>
+              <div class="imgPromo"><img src="img/Productos/pc-2.webp" class="img-fluid" alt="Notebook Lenovo IdeaPad 14IGL05 14"></div>
+              <h4>DESCRIPCIÓN:</h4>
+              <ul class="ul-descripcion">
+                <li><i class="fas fa-angle-double-right"></i> Procesador Intel Pentium Silver.</li>
+                <li><i class="fas fa-angle-double-right"></i> Memoria RAM de 4GB.</li>
+                <li><i class="fas fa-angle-double-right"></i> Pantalla LED de 14"</li>
+                <li><i class="fas fa-angle-double-right"></i> Resolución de 1366x768 px.</li>                
+              </ul>
+              <ul class="ul-descripcion">
+                <li><i class="fas fa-angle-double-right"></i> Es antirreflejo.</li>
+                <li><i class="fas fa-angle-double-right"></i> Placa de video Intel UHD Graphics 605.</li>
+                <li><i class="fas fa-angle-double-right"></i> Conexión wifi y bluetooth.</li>
+                <li><i class="fas fa-angle-double-right"></i> Cuenta con 2 puertos USB y puerto HDMI</li>
+              </ul>
+              <h5>Precio: $58.000.-</h5>
+            </div>           
+          </div>   
+        <div class="row">  
+          <div class="imgPromo"><img src="img/medios-pago.webp" class="img-fluid" alt="Medios de Pago"></div>
+        </div>
+      </section>
+      <!-- Fin Seccion Promociones -->
+
+      <!-- Seccion Comercial -->
+      <section id="comercial" class="comercial parrafo">
+        <div class="row">
+          <div class="col"><p class="mt-4"><i class="fas fa-people-carry"></i> Devolución Gratuita</p></div>
+          <div class="col"><p class="mt-4"><i class="fas fa-box-open"></i> Seguimiento de pedidos</p></div>
+          <div class="col"><p class="mt-4"><i class="fas fa-shipping-fast"></i> Envio Prioritario</p></div>
+          <div class="col"><p class="mt-4"><i class="fas fa-headset"></i> Atención Personalizada</p></div>
+        </div>
+      </section>
+      <!-- Fin Seccion Comercial -->
+
+      <!-- Seccion Contacto -->
+      <section id="contacto" class="contacto">        
+        <div class="col-12 titulo"><h2>Formulario de Contacto</h2></div>
+        <form>
+          <div class="form-group">
+            <div class="row">
+              <div class="col">
+                <label for="nombre" id="nombre" class="labelForm">Nombre:</label>
+                <input type="text"  name="nombre" id="idNombre" class="form-control">
+              </div>
+              <div class="col">
+                <label for="apellido" id="apellido" class="labelForm">Apellido:</label>
+                <input type="text" name="apellido" id="idApellido" class="form-control">
+              </div>                                  
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="sexo" id="sexo" class="labelForm">Sexo:</label>
+                <select name="sexo" id="idSexo" class="form-control">
+                  <option id="idSexo" selected value="Femenino">F</option>
+                  <option id="idSexo" value="Masculino">M</option>
+                </select>
+              </div>
+              <div class="col">                    
+                <label for="edad" id="edad" class="labelForm">Rango Edad:</label><br>
+                <input type="radio" name="edad" id="idEdad1" value="Entre 18 y 25" checked> Entre 18 y 25 
+                <input type="radio" name="edad" id="idEdad2" value="Entre 26 y 40"> Entre 26 y 40 
+                <input type="radio" name="edad" id="idEdad3" value="Entre 41 y 60"> Entre 41 y 60 
+                <input type="radio" name="edad" id="idEdad4" value="Entre 60 en adelante"> Entre 60 en adelante. <br>
+              </div>                  
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="email" id="email" class="labelForm">Email:</label>
+                <input type="text"  name="email" id="idEmail" class="form-control">
+              </div>
+              <div class="col">
+                <label for="telefono" id="telefono" class="labelForm">Telefono:</label>
+                <input type="text" name="telefono" id="idTelefono" class="form-control"><br>
+              </div>      
+            </div>
+            <div class="row">             
+              <div class="col">          
+                <label for="asunto" id="asunto" class="labelForm">Asunto:</label>
+                <input type="text" name="asunto" id="idAsunto" class="form-control"><br>
+              </div> 
+            </div> 
+            <div class="row">
+              <div class="col">
+                <label for="mensaje" id="mensaje" class="labelForm">Mensaje:</label>
+                <textarea  rows="10" cols="40" name="mensaje" id="idMensaje" class="form-control" ></textarea><br>
+                <button type="submit" name="enviar" id="enviar" onclick="contacto();" class="btn btn-outline-primary btn-block">Enviar</button>
+              </div>
+            </div> 
+          </div>
+        </form>  
+        <div id="respuesta"></div> 
+        <div class="col-12 titulo"><h2>¿Como Llegar?</h2></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3369.8000524890463!2d-61.09322088527394!3d-32.370908950304155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5e27dd5e9a631%3A0xc34897bea25771c2!2sAv.%20Sta.%20F%C3%A9%20550%2C%20Diaz%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1612992385771!5m2!1ses-419!2sar" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Mapa de Google"></iframe>
+      </section>
+      <!-- Fin Seccion Contacto -->
+
+      <!-- Seccion Suscribite -->
+      <section class="suscribite-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="suscribite-texto">
+                <h3>Suscribite a nuestro boletin de noticias</h3>
+                <h6>Enterate antes de los beneficios y promociones que tenemos para vos</h6>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="suscribite-form text-right">
+                <form action="#">
+                  <input type="email" name="email" id="idEmailSuscripcion" placeholder="Su correo">
+                  <button type="submit" class="suscribite-btn" onclick="suscripcion();">Suscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin Seccion Suscribite -->
+
+    </main>
+    <!-- Fin Main -->
+      ​
+    <!-- Seccion Footer -->  
+    <footer class="container-fluid footer">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-5">
+          <div class="footer-titulo"><img src="img/logo.webp" class="img-fluid" alt="Logo"></div>
+          <div class="footer-texto">Somos la tienda Nº 1 en venta de articulos de computación. 
+            <p>Horarios de atención:</p>
+            <p> Lunes a Viernes de 08:00 a 20:00hs.</p>
+            <p> Sabados de 08:00 a 12:00hs.</p>
+          </div>
+        </div>   
+        <div class="col-12 col-sm-6 col-md-3  footer-texto">
+          <div class="footer-titulo">Mapa del Sitio</div>
+            <div><i class="fas fa-home"></i><a href="index.html"> Inicio</a></div>
+            <div><i class="fas fa-users"></i><a href="#nosotros"> Nosotros</a></div>
+            <div><i class="fas fa-box"></i><a href="#lista-productos"> Productos</a></div>            
+            <div><i class="fas fa-id-card"></i><a href="#contacto"> Contacto</a></div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 footer-texto">
+          <div class="footer-titulo">Contacto</div>
+          <div><i class="fas fa-home"></i> Dirección: <a href="https://www.google.com/maps?ll=-32.370913,-61.091032&z=16&t=m&hl=es-419&gl=AR&mapclient=embed&q=Av.+Sta.+F%C3%A9+550+Diaz+Santa+Fe" target="_blank"> Av Santa Fe 500</a></div>
+          <div><i class="fas fa-phone"></i> Telefono:  <a href="tel:03466496111" target="_blank"> 03466496111</a></div>
+          <div><i class="fas fa-envelope"></i> Email:        <a href="mailto:info@blacksheep.com.ar" target="_blank"> info@blacksheep.com.ar</a></div>
+          <div><i class="fas fa-globe"></i> Nuestras Redes:                    
+            <a href="https://www.facebook.com/salaseviciusflavio/"  target="_blank"><i class="fab fa-facebook-square fb"></i></a> 
+            <a href="https://www.facebook.com/salaseviciusflavio/"  target="_blank"><i class="fab fa-instagram instagram"></i></a>
+            <a href="https://www.facebook.com/salaseviciusflavio/"  target="_blank"><i class="fab fa-twitter twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="row text-center mt-5">
+            <div class="col-12 desarrollado">© 2021 Desarrollado por <a href="mailto:flaviosalasevicius@hotmail.com" target="_blank">Flavio</a> - Todos los derechos reservados.</div>
+          </div>​
+        </div>
+      </div>
+        <a href="#top"><img src="img/flecha.webp" class="enlace-top" alt="Boton para volver al inicio"></a>  
+    </footer>
+    <!-- Fin Seccion Footer -->  
+
+    <!-- ARCHIVOS JS-->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="assets/js/Productos.json"></script>   
+    <script src="assets/js/App.js"></script>
+    <script src="assets/js/Alert.js"></script>
+  </body> 
+
+​</html>

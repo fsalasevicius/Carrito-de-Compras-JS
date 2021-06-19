@@ -1,0 +1,45 @@
+
+.marca .owl-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+    & img {
+      width: 100%;
+      opacity: 0.5;
+      transition: 0.3s;
+      -webkit-filter: grayscale(100);
+      filter: grayscale(100);
+    }
+
+    & img:hover {
+      opacity: 1;
+      -webkit-filter: none;
+      filter: none;
+    }
+
+  }
+ 
+  
+  .marca .owl-nav, .marca .owl-dots {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .marca .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: nth($colores, 2)!important; 
+
+    &.active{
+      background-color: nth($colores, 7)!important; 
+    }
+  }
+  
+  
+  
+  

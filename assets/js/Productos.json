@@ -1,0 +1,56 @@
+[
+    {
+      "precio": 16500,
+      "id": 1,
+      "title": "Auriculares Hyperx",
+      "img": "img/Productos/alpha-cloud-2.webp"
+    },
+    {
+      "precio": 15500,
+      "id": 2,
+      "title": "Auriculares Logitech g433",
+      "img": "img/Productos/g433.webp"
+    },
+    {
+      "precio": 18500,
+      "id": 3,
+      "title": "Monitor LG 19 Pulgadas",
+      "img": "img/Productos/monitor-lg.webp"
+    },
+    {
+      "precio": 50000,
+      "id": 4,
+      "title": "Pc Gamer",
+      "img": "img/Productos/pc-gamer-2.webp"
+    },
+    {
+      "precio": 35000,
+      "id": 5,
+      "title": "Procesador AMD",
+      "img": "img/Productos/procesador-amd.webp"
+    },
+    {
+      "precio": 40000,
+      "id": 6,
+      "title": "Procesador Intel I9",
+      "img": "img/Productos/procesador-intel-i9.webp"
+    },
+    {
+      "precio": 5600,
+      "id": 7,
+      "title": "Mouse Logitech",
+      "img": "img/Productos/mouse-logitech-g305.webp"
+    },
+    {
+      "precio": 350000,
+      "id": 8,
+      "title": "Placa de Video",
+      "img": "img/Productos/rtx3060ti.webp"
+    },
+    {
+      "precio": 35000,
+      "id": 9,
+      "title": "Samsung Galaxy Active 2",
+      "img": "img/Productos/galaxy-watch-active2.webp"
+    }
+  ]
